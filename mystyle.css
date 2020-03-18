@@ -1,0 +1,48 @@
+#top_heading{
+ text-align:center;
+ font size:20px;
+ color:#878E63;
+}
+#side_news{
+ width:200px;
+ border:1px solid blue;
+ heught:400px;
+}
+body{
+ backgroung color:#F1F0D1;
+ font-family:Verdon, Tahoma, Arial, sans-serif;
+ font-size:18px;
+ overfllow:auto;
+}
+#callout{
+ text-align:right;
+ color:green;
+}
+nav ul li{
+ float:left;
+ border:1px solid #878E63;
+ width:15%;
+}
+nav ul li a {
+ background:#F1F0D1;
+ display:block;
+ padding:5% 12%;
+ font-weight:bold;
+ font-size:18px;
+ color:#878E63;
+ text-decoration:none;
+ text-align:center;
+}
+nav ul li a:hover,nav ul li.active a{
+ background-color:#878E63;
+ color:#F1F0D1;
+}
+#style{
+ padding:0px;
+ text-align:center;
+ color:#878E63;
+ font-size:50px;
+ font-family:Tahoma;
+ font-weight:bold;
+ font-style:italic;
+}

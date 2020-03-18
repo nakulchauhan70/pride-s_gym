@@ -1,0 +1,194 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+h1{
+ font:bold 40px fantacy;
+
+}
+
+header,section,article,aside,footer,nav,hgroup{
+ display:block;
+
+}
+body{
+ 
+ background:#F1F0D1;
+ text-align:center;
+
+ 
+}
+#callout{
+ width:1000px;
+ height:auto;
+ background:#878E63;
+ overflow:hidden;
+}
+#callout p{
+ text-align:right;
+ font-size:15px;
+ padding:10px 5% 0 0;
+ color:#F1F0D1;
+}
+#big_wrapper{
+ border:1px solid black;
+ width:1000px;
+ margin:20px auto;
+ text-align:left;
+ 
+}
+#top_heading{
+ text-align:center;
+ font-size:50px;
+ font-weight:bold;
+ border:1px solid blue;
+ padding:20px;
+
+ 
+}
+nav ul{
+ list-style:none;
+ margin:0px;
+ padding-left:0px
+}
+nav ul li{
+ float:left;
+ border:1px solid #878E63;
+ width:15%;
+ font:bold 14px Arial;
+}
+nav ul li a{
+ background:#F1F0D1;
+ display:block;
+ padding:5% 12%;
+ font-weight:bold;
+ font-size:18px;
+ color:#878E63;
+ text-decoration:none;
+ text-align:center;
+}
+nav ul li a:hover,nav ul li.active a{
+ background:#878E63;
+ color:#F1F0D1;
+}
+#left-col{
+ float:left;
+ width:660px;
+ margin:30px;/*720px,280 left*/
+ 
+}
+#mid{
+ font-size:50px;
+ text-align:center;
+ margin:20px;
+}
+ 
+#side_news{
+
+ float:left;
+ width:220px;
+ margin:10px 0px;
+ padding:30px;
+ height:150px; 
+ background:red;
+ color:#ffffff;
+ text-align:center;
+ -webkit-border-radius:25px;
+ -webkit-box-shadow:rgb(110,110,110) 10px 10px 10px;
+ margin-left:-20px;
+ font:bold 30px Century Gothic;
+ text-shadow:rgb(110,110,110) 3px 3px 3px;
+ background:-webkit-radial-gradient(center,circle,red 0%,orange 50%);
+        background-image:url(Chrysanthemum.jpg);
+	background-repeat:no-repeat;
+	background-position:auto;
+	
+}
+#side_news2{
+ float:left;
+ width:250px;
+ margin-top:20px 0px;
+ margin-left:-20px;
+ padding:20px;
+ height:500px; 
+ background:red;
+ color:#ffffff;
+ text-align:left;
+}
+
+#copyright{
+ clear:both;
+ text-align:left;
+ padding:20px;
+ border-top:2px solid green;
+}
+#last{
+ width:29%;
+ float:left;
+ margin:2% 2%;
+ text-align:center;
+}
+footer{
+ background:#878E63;
+ width:1000px;
+ overflow:hidden;
+}
+footer p{
+ color:#F1F0D1;
+}
+footer a{
+ color:#F1F0D1;
+ text-decoration:none;
+}
+ul{
+ list-style-type:none;
+ margin:0;
+ padding:0px;
+}
+li{
+ display:inline;
+}
+ul li img{
+ height:30x;
+}
+#a1{
+ height:auto;
+ background:#FFFBCC;
+ border:1px solid red;
+ padding:20px;
+}
+#a2{
+ height:250px;
+ margin-top:20px;
+ background:#FFFBCC;
+ border:1px solid red;
+ padding:20px;
+}
+#left_col{
+ width:55%;
+ margin:-2% 1% 1% 1%;
+}
+#sidebar1{
+ width:40%;
+ float:right;
+ margin:-1%;
+ text-align:center;
+ margin-top:-50px;
+}
+#sidebar2{
+ margin:-1%;
+ width:40%;
+ float:right;
+ margin-top:-50px;
+}
+article footer{
+ text-align:right;
+}
+#copyright{
+ background:#878E63;
+ width:1000px; 
+ overflow:hidden;
+}
+#font{
+ color:#7FFFD4;
+}

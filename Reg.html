@@ -1,0 +1,570 @@
+
+<html>
+<head>
+<style>
+*{
+ margin:0px;
+ padding:0px;
+}
+h1{
+ font:bold 40px fantacy;
+}
+
+header,section,article,aside,footer,nav,hgroup{
+ display:block;
+
+}
+body{
+ 
+ background:#F1F0D1;
+ text-align:center;
+
+ 
+}
+#callout{
+ width:1000px;
+ height:auto;
+ background:#878E63;
+ overflow:hidden;
+}
+#callout p{
+ text-align:right;
+ font-size:15px;
+ padding:10px 5% 0 0;
+ color:#F1F0D1;
+}
+#big_wrapper{
+ border:1px solid black;
+ width:1000px;
+ margin:20px auto;
+ text-align:left;
+ 
+}
+#top_heading{
+ text-align:center;
+ font-size:50px;
+ font-weight:bold;
+ border:1px solid blue;
+ padding:20px;
+
+ 
+}
+nav ul{
+ list-style:none;
+ margin:0px;
+ padding-left:0px
+}
+nav ul li{
+ float:left;
+ border:1px solid #878E63;
+ width:15%;
+ font:bold 14px Arial;
+}
+nav ul li a{
+ background:#F1F0D1;
+ display:block;
+ padding:5% 12%;
+ font-weight:bold;
+ font-size:18px;
+ color:#878E63;
+ text-decoration:none;
+ text-align:center;
+}
+nav ul li a:hover,nav ul li.active a{
+ background:#878E63;
+ color:#F1F0D1;
+}
+#left-col{
+ float:left;
+ width:660px;
+ margin:30px;/*720px,280 left*/
+ 
+}
+#mid{
+ font-size:50px;
+ text-align:center;
+ margin:20px;
+}
+ 
+#copyright{
+ clear:both;
+ text-align:left;
+ padding:20px;
+ border-top:2px solid green;
+}
+#last{
+ width:29%;
+ float:left;
+ margin:2% 2%;
+ text-align:center;
+}
+footer{
+ background:#878E63;
+ width:1000px;
+ overflow:hidden;
+}
+footer p{
+ color:#F1F0D1;
+}
+footer a{
+ color:#F1F0D1;
+ text-decoration:none;
+}
+ul{
+ list-style-type:none;
+ margin:0;
+ padding:0px;
+}
+li{
+ display:inline;
+}
+ul li img{
+ height:30x;
+}
+#a1{
+ height:auto;
+ background:#FFFBCC;
+ border:1px solid red;
+ padding:20px;
+}
+#h{
+ background-color:#40E0D0;
+}
+#reg1{
+ margin-left:200px;
+ margin-top:-200px;
+}
+#reg2{
+ margin-left:400px;
+ margin-top:-220px;
+}
+#reg4{
+ margin-left:600px;
+ margin-top:-220px;
+}
+#reg3{
+ margin-left:800px;
+ margin-top:-130px;
+}
+#ed{
+ margin-top:-40px;
+ margin-left:250px;
+}
+#at{
+ margin-left:400px;
+ margin-top:-38px;
+}
+#ed{
+ margin-left:200px;
+ margin-top:-38px;
+}
+</style>
+</head>
+
+<body>
+<div id="big_wrapper">
+	<div id="callout">
+	    <p>call us at <b>0251-2569-777</b></p>
+	</div>
+ 
+
+  <header id="top_heading">
+    <h1>Pride's Gym,Massage Health and Spa Club</h1>
+  </header>
+
+<div id="new_div">
+
+  <nav id="main_menu">
+    <ul>
+      <li class='active'><a href="bucky.html">Home</a></li>
+      <li><a href="facility.html">Facility</a></li>
+    
+         
+      <!--<li><a href="Login.html"><b>Login</b></a></li>-->
+	  
+      <li><a href="Reg.html">Login</a></li>
+      <li><a href="About.html">About</a></li>
+       <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  
+  <div class="form">
+      
+      <!-- <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul> -->
+
+      <br />
+      <br />
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Get Started</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>Welcome Back!</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
+          <button class="button button-block"/>Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+  
+  
+  
+  
+<!--
+<br /><br /><br />
+
+
+<div id="reg">
+
+
+ 
+<h2 align="center"> REGISTRATION </h2><hr/><hr /><br />
+<marquee bhavior="slide" direction="left">You Can also apply for<br /><a href="mailto:mkul.ic20@gmail.com"><b><em>Menbership Form</em></b></a></marquee>
+<br /><br />
+
+
+<div id="h">
+<p align="left">Personal Information</p>
+</div>
+
+<section id="reg">
+
+	Active <input type="checkbox" name="check" value="active""><br /><br />
+	Address<br /><input  type="text" name="fname"><br /><br /> 
+	Home Phone<br /><input type="text" name="fname"><br /><br />
+	Emergency Contact<br /><input type="text" name="fname"><br /><br />
+	Personal Trainer<br /><select name="personal trainer">
+					<option value="A"> Required</option>
+					<option value="B"> Not Required</option>
+				</select>
+
+<div id="reg1">
+			    First Name<br /><input align="right" type="text" name="fname"><br> <br>
+			    City<br /><input type="text" name="fname"><br> <br>
+		            Cell Phone<br /><input align="right" type="text" name="fname"><br> <br>
+			    Zip Code<br /><input  type="text" name="fname"><br> <br>
+</div>
+<section id="reg2">
+		Last Name<br /><input type="text" name="lname"><br> <br>
+		Work Phone<br /><input type="text" name="lname"><br> <br>
+		Emergency Phone<br /><input align="right" type="text" name="lname"><br> <br>
+		E-mail<br /><input align="right" type="email" name="email"><br><br>
+		
+</section>
+<section id="reg3">          
+		
+		
+</section>
+
+<section id="reg4">
+		Gender<br>
+		<input type="radio" name="gender" value="Female"> Female
+		<input type="radio" name="gender" value="Male"> Male<br> <br>
+		Date Of Birth<br /><input align="right" type="email" name="email"><br><br>
+		Height<br /><input  type="text" name="fname"><br> <br>
+		Weight<br /><input align="right" type="email" name="email"><br><br>
+</section>
+   <br /><br />		
+<div id="h">
+<p align="left">Acess Type/Member Type</p>
+</div>
+		<br />
+Start Date<br />
+<select name="Day">
+<option value="A">01</option>
+<option value="B">02</option>
+<option value="B">03</option>
+<option value="B">04</option>
+<option value="B">05</option>
+<option value="B">06</option>
+<option value="B">07</option>
+<option value="B">08</option>
+<option value="B">09</option>
+<option value="B">10</option>
+<option value="B">11</option>
+<option value="B">12</option>
+<option value="B">13</option>
+<option value="B">14</option>
+<option value="B">15</option>
+<option value="B">16</option>
+<option value="B">17</option>
+<option value="B">18</option>
+<option value="B">19</option>
+<option value="B">20</option>
+<option value="B">21</option>
+<option value="B">22</option>
+<option value="B">23</option>
+<option value="B">24</option>
+<option value="B">25</option>
+<option value="B">26</option>
+<option value="B">27</option>
+<option value="B">28</option>
+<option value="B">29</option>
+<option value="B">30</option>
+<option value="B">31</option>
+</select>
+		
+<select name="month">
+<option value="A">Jan</option>
+<option value="B">Feb</option>
+<option value="B">March</option>
+<option value="B">April</option>
+<option value="B">May</option>
+<option value="B">June</option>
+<option value="B">July</option>
+<option value="B">August</option>
+<option value="B">September</option>
+<option value="B">October</option>
+<option value="B">November</option>
+<option value="B">December</option>
+</select>
+		
+<select name="year">
+<option value="c">1990</option>
+<option value="c">1991</option>
+<option value="c">1992</option>
+<option value="c">1993</option>
+<option value="c">1994</option>
+<option value="c">1995</option>
+<option value="c">1996</option>
+<option value="c">1997</option>
+<option value="c">1998</option>
+<option value="c">1999</option>
+<option value="c">2000</option>
+<option value="c">2001</option>
+<option value="c">2002</option>
+<option value="c">2003</option>
+<option value="c">2004</option>
+<option value="c">2005</option>
+<option value="c">2006</option>
+<option value="c">2007</option>
+<option value="c">2008</option>
+<option value="c">2009</option>
+<option value="c">2010</option>
+<option value="c">2011</option>
+<option value="c">2012</option>
+<option value="c">2013</option>
+<option value="c">2014</option>
+<option value="c">2015</option>
+</select>
+
+
+<div id="ed">		
+End Date<br />
+<select name="Day">
+<option value="A">01</option>
+<option value="B">02</option>
+<option value="B">03</option>
+<option value="B">04</option>
+<option value="B">05</option>
+<option value="B">06</option>
+<option value="B">07</option>
+<option value="B">08</option>
+<option value="B">09</option>
+<option value="B">10</option>
+<option value="B">11</option>
+<option value="B">12</option>
+<option value="B">13</option>
+<option value="B">14</option>
+<option value="B">15</option>
+<option value="B">16</option>
+<option value="B">17</option>
+<option value="B">18</option>
+<option value="B">19</option>
+<option value="B">20</option>
+<option value="B">21</option>
+<option value="B">22</option>
+<option value="B">23</option>
+<option value="B">24</option>
+<option value="B">25</option>
+<option value="B">26</option>
+<option value="B">27</option>
+<option value="B">28</option>
+<option value="B">29</option>
+<option value="B">30</option>
+<option value="B">31</option>
+</select>
+		
+<select name="month">
+<option value="A">Jan</option>
+<option value="B">Feb</option>
+<option value="B">March</option>
+<option value="B">April</option>
+<option value="B">May</option>
+<option value="B">June</option>
+<option value="B">July</option>
+<option value="B">August</option>
+<option value="B">September</option>
+<option value="B">October</option>
+<option value="B">November</option>
+<option value="B">December</option>
+</select>
+		
+<select name="year">
+<option value="c">1990</option>
+<option value="c">1991</option>
+<option value="c">1992</option>
+<option value="c">1993</option>
+<option value="c">1994</option>
+<option value="c">1995</option>
+<option value="c">1996</option>
+<option value="c">1997</option>
+<option value="c">1998</option>
+<option value="c">1999</option>
+<option value="c">2000</option>
+<option value="c">2001</option>
+<option value="c">2002</option>
+<option value="c">2003</option>
+<option value="c">2004</option>
+<option value="c">2005</option>
+<option value="c">2006</option>
+<option value="c">2007</option>
+<option value="c">2008</option>
+<option value="c">2009</option>
+<option value="c">2010</option>
+<option value="c">2011</option>
+<option value="c">2012</option>
+<option value="c">2013</option>
+<option value="c">2014</option>
+<option value="c">2015</option>
+</select>
+</div>
+
+<div id="at">
+Access Type<br />
+<select name="access">
+<option value="A"> Full Access</option>
+<option value="B"> Short Access</option>
+</select>
+</div>
+<br />
+
+<div id="h">
+<p align="left">Recurruning Payment Information</p>
+</div>
+<br />
+
+<div id="pt">
+Access Type<br />
+<select name="payment">
+<option value="A">Check</option>
+<option value="B">Cash</option>
+</select>
+</div>
+<br />
+
+Amount in Rs.<br /><input type="text" name="amount"><br> <br>
+
+
+<input type="checkbox" name="check" value="active""> Update Payment Info.in Vault<br /><br />
+
+
+<input type="submit" value="save">
+<input type="submit" value="save & Notes">
+<input type="submit" value="Cancel">
+
+<br /><br /><br />
+
+-->
+
+<hr /><hr />
+<h3 align="center">For more details check my website <a href="mailto:nkul.ic20@gmail.com"><br />nakul@gym.com</a></h
+	
+</div>
+ 
+  <footer>
+	<div id="last">
+	<p>Pride's Gym,Massage Health and <br />Spa Club</p><br />
+           <p><b>0251-2569-777</b></p>
+	   1700 Chember Road,<br />Shoping Complex<br />
+	   Mumbai,400156<br />
+	   <a href="www.Pride'sGym@health.com">Pride'sGym@health.com</a><br /><br />
+	</div>  
+  
+  <div id="last">
+	<p>Connect with us</p><br />
+	<ul>
+	  <li><a href="#"><img src="icon320x320.jpeg" width="30" height="30"></a></li>
+	  <li><a href="#"><img src="Google-Plus-Logo.png" width="30" height="30"></a></li>
+	  <li><a href="#"><img src="200px-Twitter_bird_logo_2012.svg.png" width="30" height="30"></a></li>
+	  <li><a href="#"><img src="youtube_logo_stacked-vfl225ZTx.png" width="30" height="30"></a></li>
+	</ul> 
+  </div>
+  <div id="last">
+	<img src="Ayurvedic_Medicine_System.jpg" width="250px" height="150px"></img>
+	<p>Ayurvedic treatment is<br />also available</p>
+  </div>
+ 
+   
+  </footer>
+
+</div>
+
+<div id="c"> <h4 align="center">Copyright @Pride'sGym&HealthClub</h4></div>
+</body>
+</html>
